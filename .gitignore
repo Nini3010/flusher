@@ -8,6 +8,7 @@ Logs/
 Library/
 Temp/
 obj/
+**/Models/_PaidAssets/
 
 # Unity ignore
 # Library
@@ -30,12 +31,12 @@ obj/
 # **/assets/assetstoretools
 # /Assets/Plugins/PlasticSCM*
 # /assets/plugins/PlasticSCM*
-# *.private
-# *.private.meta
-# ^*.private.[0-9]+$
-# ^*.private.[0-9]+.meta$
+*.private
+*.private.meta
+^*.private.[0-9]+$
+^*.private.[0-9]+.meta$
 # .vs
-# .vscode
+.vscode
 # .idea
 # .gradle
 # ExportedObj
@@ -77,11 +78,12 @@ UserSettings/
 MemoryCaptures/
 Logs/
 .vs/
+.utmp/
 *.csproj
 *.sln
 *.user
 *.unitypackage
-Assets/_PaidAssets/
+*.private.0
 # .DS_Store*
 # Thumbs.db
 # Desktop.ini
